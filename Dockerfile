@@ -43,7 +43,7 @@ EXPOSE 80
 ADD entry_point.sh /datos1
 
 ##VOLUME##
-ADD pagina /var/www/html
+ADD paginas /var/www/html
 VOLUME ["/var/www/html"]
 
 ##CMD##
